@@ -1,3 +1,7 @@
+""" This is a program to find a number in the given array of numbers
+    return true if the given number exists in the array else false"""
+
+
 def linear_search(arr,target):
     for num in arr:
         if num == target:
